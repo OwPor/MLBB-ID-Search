@@ -1,0 +1,44 @@
+/* Custom styles for MLBB ID Search */
+
+/* Fix for input outline in light mode */
+input {
+  outline: none;
+  border: 1px solid #d1d5db;
+}
+
+input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+/* Mobile-first responsive design adjustments */
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Footer styles */
+footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+/* Dark mode adjustments */
+.dark input {
+  border-color: #4b5563;
+}
+
+.dark input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
